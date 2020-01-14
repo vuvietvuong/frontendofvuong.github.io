@@ -123,22 +123,22 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-xs-6 boderImage-right">    
-                        <img src="anh3.png" class=" img-fluid image-right"></img>
+                        <img src="https://danongonline.com.vn/wp-content/uploads/2018/02/anh-girl-xinh-9-1.jpg" class=" img-fluid image-right rounded mx-auto d-block"></img>
                     </div>
                     <div class="col-md-4 col-xs-6 boderImage-right">
-                        <img src="anh3.png" class="img-fluid image-right"></img>
+                        <img src="https://i.imgur.com/uQ7c94B.jpg" class="img-fluid image-right rounded mx-auto d-block"></img>
                     </div>
                     <div class="col-md-4 col-xs-6 boderImage-right">
-                        <img src="anh3.png" class="img-fluid image-right"></img>
+                        <img src="https://4.bp.blogspot.com/-983QtP5mKzY/WyEd9tw7lYI/AAAAAAAAwPA/hHxSPxoXZUMbfn8bYZbFhJzsRUrFOzsygCLcBGAs/s640/anh-girl-xinh-chon-loc-1.jpg" class="img-fluid image-right rounded mx-auto d-block"></img>
                     </div>
                     <div class="col-md-4 col-xs-6 boderImage-right">    
-                        <img src="anh3.png" class=" img-fluid image-right"></img>
+                        <img src="http://vinathis.com/news/uploads/news/2018_09/hinh-anh-gai-xinh-sexy-161.jpg" class="img-fluid image-right rounded mx-auto d-block"></img>
                     </div>
                     <div class="col-md-4 col-xs-6 boderImage-right">
-                        <img src="anh3.png" class="img-fluid image-right"></img>
+                        <img src="http://vinathis.com/news/uploads/news/2018_09/hinh-anh-gai-xinh-sexy-50.jpg" class="img-fluid image-right rounded mx-auto d-block"></img>
                     </div>
                     <div class="col-md-4 col-xs-6 boderImage-right">
-                        <img src="anh3.png" class="img-fluid image-right"></img>
+                        <img src="https://1.bp.blogspot.com/-DzJCoJPxoy8/XcfYutQGhiI/AAAAAAAATbw/RiABAdw127c_i13o0GGzjnh96rIj0sXrQCLcBGAsYHQ/s1600/Wap102Com-68-Anh-gai-xinh-mac-ao-dai%2B%25281%2529.jpg" class="img-fluid image-right rounded mx-auto d-block"></img>
                     </div>
 
                 </div>
@@ -220,6 +220,10 @@
         $(".navbar-toggler").click(function(){
             $("#navbarResponsive").toggle();
         })
+    })
+    $('.image-right').click(function(){
+        var images = $(this).attr('src');
+        $('.image-content').attr('src',images);
     })
     var slideIndex = 1;
     showSlides(slideIndex);

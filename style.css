@@ -102,6 +102,8 @@ body{
 .image-content{
     margin-top: 22px;
     margin-bottom: 15px;
+    width: 400px;
+    height: 230px;
 }
 .text-content{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -117,6 +119,8 @@ body{
 
 .image-right{
     margin-top: 22px;
+    width: 140px;
+    height: 140px;
 }
 /* Footer */
 .Footer{
