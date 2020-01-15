@@ -68,9 +68,8 @@
                     This template is distributed using a <span style="color: #ff9900;">website template licence</span>, which allows you to use and modify the template for both personal and commercial use when you keep the provided credit links in the footer.</br></br>
                     For more free PSD templates visit OS-Templates.com
                 </div>
-                <div style="background-color: #221711;width: 160px;height: 35px; margin-top: 50px;margin-bottom: 20px;">
-                    <a href="#"  class="read-more">Read More</a>
-                </div>
+                <div class="read-more">Read More</div>
+                
             </div>
             <div class="col-md-5 right">          
                 <div class="slideshow-container">
@@ -84,9 +83,9 @@
                     <div class="mySlides ">
                         <img src="https://cdn.bongda365.com/media/2019/11/Untitled-1-7-400x230.jpg" class="img-fluid image"/>
                     </div>
-                    <div style=" clear: both; padding-top: 25px!important;">
-                        <a  class="previous" onclick="plusSlides(-1) ">&laquo; PREV</a>
-                        <a style=" clear: both;" class="next" onclick="plusSlides(1)" >NEXT &raquo;</a>
+                    <div style=" clear: both; padding-top: 25px!important;" >
+                        <div  class="previous" onclick="plusSlides(-1) ">&laquo; PREV</div>
+                        <div  class="next" onclick="plusSlides(1)" >NEXT &raquo;</div>
                     </div>
                 </div>
             </div>
@@ -108,11 +107,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5 demo">
-                            <a href="#" style="color: white;">VIEW DEMO !</a>
+                            <div style="color: white;">VIEW DEMO !</div>
                         </div>
                         <div class="col-md-2 "></div>
                         <div class="col-md-5 demo">
-                            <a href="#" style="color: white;">VIEW DEMO !</a>
+                            <div style="color: white;">MORE DEMO !</div>
                         </div>
                     </div>
                 </div>
@@ -142,18 +141,6 @@
                     </div>
 
                 </div>
-                <!-- <div class="row">
-                    <div class="col-md-4 col-sm-6 boderImage-right">
-                        <img src="anh3.png" class="img-fluid image-right"></img>
-                    </div>
-                    <div class="col-md-4 boderImage-right">
-                        <img src="anh3.png" class="img-fluid image-right"></img>
-                    </div>
-                    <div class="col-md-4 boderImage-right">
-                        <img src="anh3.png" class="img-fluid image-right"></img>
-                    </div>
-                </div> -->
-
                 <div class="header1 " style="margin-top: 36px;">
                     <a style="font-size: 22pt; font-family:  Georgia, 'Times New Roman', Times, serif;color: #8e8e86;">About This Free PSD Template</a>
                 </div>
@@ -228,7 +215,8 @@
     var slideIndex = 1;
     showSlides(slideIndex);
 
-    function plusSlides(n) {
+    function 
+    plusSlides(n) {
     showSlides(slideIndex += n);
     }
 
@@ -246,7 +234,6 @@
         slides[i].style.display = "none";  
     }
     slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
     }
 </script>
 </html>

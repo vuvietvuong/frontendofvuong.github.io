@@ -56,10 +56,17 @@ body{
     line-height: 1;
 }
 .read-more{
+    background-color: #221711;
+    width: 160px;
+    height: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22pt;
     color: #ffffff;
     text-align: center;
+    line-height: 30px;
+    cursor: pointer;
 }
 .image{
     margin-top: 25px;
@@ -70,20 +77,26 @@ body{
     background-color: #221711;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22pt;
+    line-height: 20px;
     color: white!important;
     cursor: pointer;
-   
+    padding: 5px 20px;
+    float: left;
+    margin-top: 4px;
   }
 .next {
     background-color: #221711;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22pt;
+    line-height: 22px;
     color: white!important;
-    float: right;
     cursor: pointer;
+    padding: 5px 20px;
+    float:right;
+    margin-top: 4px;
   }
-.previous:hover, .next:hover {
-    background-color: #ff9900;
+.previous:hover, .next:hover,.read-more:hover , .demo:hover{
+    background-color: #ff0037;
   }
   
 /* Content */
@@ -111,9 +124,14 @@ body{
     color: #666666;
 }
 .demo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 20px;
     text-align: center;
     background-color: #422c21;
+    font-size: 15pt;
+    line-height: 20px;
+    cursor: pointer;
+    padding: 5px 20px;
     
 }
 
@@ -146,7 +164,11 @@ body{
     line-height: 1;
 }
 .lienhe{
+    cursor: pointer;
     color: #ff9900;
+}
+.lienhe:hover,.continue:hover{
+    color: #ff00f2;
 }
 .search{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
